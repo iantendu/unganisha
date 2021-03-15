@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unganisha">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.sensor.compass"
+        android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <activity android:name=".SpecialistDetailActivity"></activity>
+        <activity android:name=".FarmerProfileActivity" />
+        <activity android:name=".UpdateFarmerActivity" />
+        <activity android:name=".UpdateSpecialistActivity" />
+        <activity android:name=".SpecialistRegisterActivity" />
+        <activity android:name=".FarmerHomeActivity"
+            android:theme="@style/Theme.Unganisha"/>
+        <activity android:name=".SpecialistHomeActivity" />
+        <activity android:name=".FarmerRegisterActivity" />
+        <activity android:name=".LoginActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
