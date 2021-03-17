@@ -49,7 +49,20 @@ public class SpecialistRegisterActivity extends AppCompatActivity {
         errorText = findViewById(R.id.errorText);
         services = findViewById(R.id.services);
 
+
+        ArrayList<String> regions = new ArrayList<String>();
+        regions.add("Kamakwa");
+        regions.add("Karatina");
+        regions.add("Kimathi");
+        ArrayAdapter<String> regionsAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.list_item, regions);
+        region.setAdapter(regionsAdapter);
+
+
+
         errorText.setVisibility(View.INVISIBLE);
+
+
+
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

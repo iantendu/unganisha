@@ -112,9 +112,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Region"
-                app:placeholderText="Services"
+                app:placeholderText=""
                 android:layout_marginBottom="16dp">
-                f<AutoCompleteTextView
+                <AutoCompleteTextView
                     android:id="@+id/specialist_region"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

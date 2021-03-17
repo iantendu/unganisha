@@ -52,9 +52,11 @@ public class FarmerRegisterActivity extends AppCompatActivity {
         regions.add("Kamakwa");
         regions.add("Karatina");
         regions.add("Kimathi");
+        regions.add("Chaka");
 
         ArrayAdapter<String> regionsAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.list_item, regions);
         regionsDropdown.setAdapter(regionsAdapter);
+
 
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override

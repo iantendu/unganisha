@@ -40,14 +40,7 @@
                 android:textAppearance="?attr/textAppearanceBody1"
                 android:textColor="?android:attr/textColorSecondary"
                 />
-            <TextView
-                android:id="@+id/spe_contact"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="+254710949598"
-                android:textAppearance="?attr/textAppearanceBody1"
-                android:textColor="?android:attr/textColorSecondary"
-                />
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -67,6 +60,24 @@
 
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <!-- Title, secondary and supporting text -->
+                <TextView
+                    android:id="@+id/spe_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+254710949598"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textColor="?android:attr/textColorSecondary"
+                    />
+
+
+            </LinearLayout>
+
 
         </LinearLayout>
 

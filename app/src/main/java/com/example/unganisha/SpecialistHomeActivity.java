@@ -32,7 +32,6 @@ public class SpecialistHomeActivity extends AppCompatActivity {
         specialistRegion = findViewById(R.id.specialist_region);
         specialistBio = findViewById(R.id.specialist_bio);
         specialistServices = findViewById(R.id.specialist_services);
-        specialistCounty = findViewById(R.id.specialist_county);
         updateActivityButton = findViewById(R.id.updateActivityButton);
 
 
